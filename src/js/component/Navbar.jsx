@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
     return (
     <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg d-flex flex-row-reverse navbar-dark bg-secondary">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,8 +32,8 @@ const Navbar = () => {
                         <a class="nav-link disabled" href="#">Disabled</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" 
+                <form class="form-inline mx-2 my-lg-0">
+                    <input class="form-control mx-1 mr-sm-2" 
                         type="search" 
                         placeholder="Search" 
                         aria-label="Search"

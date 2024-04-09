@@ -10,3 +10,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+form{
+    display: inline-flex;
+}
+.jumbotron{
+    background-color: rgb(213, 213, 213);
+}
